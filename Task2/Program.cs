@@ -5,7 +5,6 @@
 
 Console.WriteLine("Введите число");
 int number = Convert.ToInt32(Console.ReadLine());
-//int threenum = 0;
 if(number > 99)
 {
     if(number < 1000)
