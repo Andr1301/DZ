@@ -9,7 +9,7 @@ if(number > 99)
 {
     if(number < 1000)
     {
-        Console.WriteLine(number % 10);
+        Console.WriteLine($"{number} -> {number % 10}");
     }
     else
     {
@@ -17,7 +17,7 @@ if(number > 99)
         {
             number = number / 10;
         }
-        Console.WriteLine(number % 10);
+        Console.WriteLine($"{number} -> {number % 10}");
     }
 }
 else
